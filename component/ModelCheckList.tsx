@@ -185,7 +185,7 @@ const ModelItem = ({
     }
 
     if (e.target.checked) {
-      if (currentBots.length >= 3) {
+      if (currentBots.length >= 1) {
         setCurrentBots([...currentBots.slice(1), model])
       } else {
         setCurrentBots([...currentBots, model])
