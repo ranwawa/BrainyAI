@@ -1,5 +1,5 @@
 export enum FileTypes {
-    PDF,
-    Image,
-    OTHERS
+  PDF,
+  Image,
+  OTHERS
 }

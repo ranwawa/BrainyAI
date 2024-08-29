@@ -5,6 +5,7 @@
 [![GitHub license](https://img.shields.io/badge/license-GPL%203.0-blue)](https://github.com/luyu0279/BrainyAi/blob/main/LICENSE)
 
 English ｜ [简体中文](README_ZH-CN.md)
+
 <p>
   <a style="font-size: 28px" href="https://chromewebstore.google.com/detail/brainyai/jmcllpdchgacpnpgechgncndkfdogdah?utm_source=github&utm_medium=pr&utm_campaign=0614">
   ⏬⏬ Download BrainyAI from Chrome Web Store
@@ -20,9 +21,7 @@ English ｜ [简体中文](README_ZH-CN.md)
 
 When using **BrainyAI**, users don’t need to leave their current web page. They can leverage advanced large language models like **GPT-4**, **GPT-4o**, **Claude**, **Gemini**, **Moonshot**, and **LLaMA3** for tasks such as conversation, search, summarizing web pages, and reading files—all completely free. BrainyAI is a free alternative to similar products like **[Sider AI](https://sider.ai)**, **[Monica](https://monica.im)**, **[Merlin](https://www.getmerlin.in)**, and **[MaxAI](https:///www.maxai.me)**. 🌐
 
-
 <br>
-
 
 ## Key features
 
@@ -31,43 +30,33 @@ When using **BrainyAI**, users don’t need to leave their current web page. The
 - 📚 Top-Tier AIs to assist with Web/YouTube summaries, for Free
 - 💬 Engage in conversations with Top-Tier AIs across documents, for Free
 
-
 <br>
 
-
-| Features | Screenshot                                                                                         | 
-| -------- |----------------------------------------------------------------------------------------------------| 
-| Group Chat     | ![20240614-190440](https://raw.githubusercontent.com/luyu0279/BrainyAi/main/misc/group_chat.gif)   | 
-| Multiple Answers from Top-Tier AI Search Engines  | ![20240614-191334](https://raw.githubusercontent.com/luyu0279/BrainyAi/main/misc/multi_answer.gif) | 
-| Web/YouTube summaries     | ![20240614-191334](https://raw.githubusercontent.com/luyu0279/BrainyAi/main/misc/summaries.gif)                                       | 
-
-
-
-
+| Features                                         | Screenshot                                                                                         |
+| ------------------------------------------------ | -------------------------------------------------------------------------------------------------- |
+| Group Chat                                       | ![20240614-190440](https://raw.githubusercontent.com/luyu0279/BrainyAi/main/misc/group_chat.gif)   |
+| Multiple Answers from Top-Tier AI Search Engines | ![20240614-191334](https://raw.githubusercontent.com/luyu0279/BrainyAi/main/misc/multi_answer.gif) |
+| Web/YouTube summaries                            | ![20240614-191334](https://raw.githubusercontent.com/luyu0279/BrainyAi/main/misc/summaries.gif)    |
 
 <br>
 <br>
-
 
 ## Supported LLMs
 
-
-
-| LLMs | Provider | status |
-| -------- | -------- | -------- |
-| Gpt3.5     | chatgpt.com     | Supported     |
-| Gpt4     | chatgpt.com     | Supported     |
-| Gpt4o     | chatgpt.com     | Supported     |
-| Gpt4     | copilot.microsoft.com     | Supported  |
-| Gemini     | gemini.google.com     | Supported     |
-| Moonshot     | kimi.moonshot.cn     | Supported     |
-| LLama 3    | perplexity.ai     | Supported     |
-| Claude 3 haiku     | perplexity.ai     | Supported     |
-| Gemma-7b    | perplexity.ai     | Supported     |
-| llava-v1.6    | perplexity.ai     | Supported     |
-| Mistral-8×22b| perplexity.ai     | Supported     |
-| Claude 3     | claude.ai     | Soon     |
-
+| LLMs           | Provider              | status    |
+| -------------- | --------------------- | --------- |
+| Gpt3.5         | chatgpt.com           | Supported |
+| Gpt4           | chatgpt.com           | Supported |
+| Gpt4o          | chatgpt.com           | Supported |
+| Gpt4           | copilot.microsoft.com | Supported |
+| Gemini         | gemini.google.com     | Supported |
+| Moonshot       | kimi.moonshot.cn      | Supported |
+| LLama 3        | perplexity.ai         | Supported |
+| Claude 3 haiku | perplexity.ai         | Supported |
+| Gemma-7b       | perplexity.ai         | Supported |
+| llava-v1.6     | perplexity.ai         | Supported |
+| Mistral-8×22b  | perplexity.ai         | Supported |
+| Claude 3       | claude.ai             | Soon      |
 
 More is coming.
 
@@ -94,11 +83,9 @@ This anonymous usage data is essential for continuous improvement and does not r
 <br>
 <br>
 
-
 ---
 
 ## For developers
-
 
 ### Getting started
 
@@ -147,8 +134,6 @@ mv .env.example .env
 ```
 
 and then add your GA4 Measurement ID and API Secret in the .env file
-
-
 
 ## Community
 

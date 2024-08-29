@@ -3,9 +3,8 @@
 module.exports = {
   content: ["./**/*.tsx"],
   theme: {
-    extend: {},
+    extend: {}
   },
-  plugins: [],
+  plugins: []
   // prefix: "bbr-",
 }
-
