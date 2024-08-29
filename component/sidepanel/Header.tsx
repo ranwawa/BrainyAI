@@ -28,13 +28,13 @@ const DrawerNaviItems: IDrawerNaviItem[] = [
     name: "Chat",
     icon: IconChat,
     activeIcon: IconChatActive
-  },
-  {
-    path: PanelRouterPath.SEARCH_HOME,
-    name: "Search",
-    icon: IconSearch,
-    activeIcon: IconSearchActive
   }
+  // {
+  //   path: PanelRouterPath.SEARCH_HOME,
+  //   name: "Search",
+  //   icon: IconSearch,
+  //   activeIcon: IconSearchActive
+  // }
 ]
 
 const HTitle = {
