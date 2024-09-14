@@ -3,6 +3,7 @@
   "displayName": "BrainyAI",
   "version": "0.0.7",
   "description": "",
+  "type": "module",
   "scripts": {
     "dev": "plasmo dev",
     "build": "plasmo build",
@@ -46,6 +47,7 @@
     "@types/node": "20.11.5",
     "@types/react": "18.2.48",
     "@types/react-dom": "18.2.18",
+    "@zmn/eslint-plugin": "^1.1.9",
     "antd": "^5.17.2",
     "autoprefixer": "^10.4.18",
     "console-browserify": "^1.2.0",
