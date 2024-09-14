@@ -1,7 +1,6 @@
 import { Drawer, Tooltip, type DrawerProps } from "antd"
 import IconChatActive from "data-base64:~assets/chat_active.svg"
 import IconChat from "data-base64:~assets/chat.svg"
-import IconSearchActive from "data-base64:~assets/icon_search_ai_active.svg"
 import IconSearch from "data-base64:~assets/icon_search_ai.svg"
 import MenuArrowIcon from "data-base64:~assets/menu_arrow.svg"
 import IconMore from "data-base64:~assets/more.svg"
@@ -38,11 +37,11 @@ const DrawerNaviItems: IDrawerNaviItem[] = [
 ]
 
 const HTitle = {
-  AIChatText: "AI Chat",
+  AIChatText: chrome.i18n.getMessage("AIChat"),
   AISearchText: "AI Search"
 }
 
-export default function () {
+export default function Header() {
   const [open, setOpen] = useState(false)
   const [placement] = useState<DrawerProps["placement"]>("right")
   const location = useLocation()
@@ -51,6 +50,8 @@ export default function () {
   const [titleText, setTitleText] = useState<string>()
   const { expandMenu, setExpandMenu } = useContext(SidePanelContext)
 
+  // const { t, i18n } = useTranslation()
+  // t("Welcome to React")
   useEffect(() => {
     if (location.pathname.endsWith(PanelRouterPath.CONVERSATION)) {
       setTitleImage(IconChat)

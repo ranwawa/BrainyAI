@@ -63,6 +63,7 @@
     "url": "^0.11.0"
   },
   "manifest": {
+    "default_locale": "zh_CN",
     "web_accessible_resources": [
       {
         "resources": [
